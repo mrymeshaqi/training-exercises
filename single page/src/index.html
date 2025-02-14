@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A OnePage Landing Page</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="min-h-screen bg-linear-30 from-indigo-600 to-cyan-400 bg-cover text-white"
+  >
+    <header>
+      <div class="container mx-auto px-[15px]">
+        <!-- Header Top -->
+        <nav class="flex items-center justify-between py-2 sm:py-4">
+          <h2 class="text-2xl font-semibold">Landing</h2>
+          <!-- Open menu button -->
+          <div
+            class="flex size-10 cursor-pointer items-center justify-center rounded-md bg-gray-100 md:hidden"
+          >
+            <!-- line & before after-->
+            <span
+              class="relative block h-0.5 w-6 rounded-md bg-black before:absolute before:top-1.5 before:h-0.5 before:w-6 before:bg-black after:absolute after:bottom-1.5 after:h-0.5 after:w-6 after:bg-black"
+            ></span>
+          </div>
+          <!-- Menu -->
+          <ul class="hidden capitalize md:flex md:items-center md:gap-8">
+            <li>
+              <a href="#">home</a>
+            </li>
+            <li>
+              <a href="#">feature</a>
+            </li>
+            <li>
+              <a href="#">reviews</a>
+            </li>
+            <li>
+              <a href="#">pricing</a>
+            </li>
+            <li class="uppercase">
+              <a href="#">faq</a>
+            </li>
+            <button
+              class="rounded-md border-[1px] border-white bg-transparent px-4 py-2 hover:border-blue-400 hover:bg-blue-500"
+            >
+              Get Started
+            </button>
+          </ul>
+        </nav>
+        <!-- Header Content -->
+        <div
+          class="mt-10 mb-4 grid grid-cols-1 items-center gap-8 md:mt-24 lg:grid-cols-2"
+        >
+          <div class="text-center lg:text-left">
+            <h1 class="text-4xl sm:text-5xl">Fly makes you faster</h1>
+            <p
+              class="mx-auto max-w-sm py-4 text-base sm:text-lg md:py-6 lg:mx-0"
+            >
+              New free template by
+              <span class="text-blue-100">uicookies.com</span>. For more
+              templates visit the <span class="text-blue-100">site</span>. Lorem
+              ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button
+              class="rounded-full bg-green-500 px-8 py-2 uppercase hover:bg-green-600"
+            >
+              see pricing
+            </button>
+          </div>
+          <div>
+            <form
+              class="xs:w-sm xs:mx-auto xs:px-10 w-full rounded-md bg-white px-6 py-8 text-center text-gray-600 shadow-2xl sm:w-md md:px-12 lg:mr-0 lg:ml-auto"
+            >
+              <h2 class="mb-4 text-2xl">Sign Up for Free</h2>
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Full name"
+                class="input"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="input"
+              />
+              <input
+                type="password"
+                name="pass"
+                placeholder="Password"
+                class="input"
+              />
+              <input
+                type="number"
+                name="phonenumber"
+                placeholder="Phone number"
+                class="input"
+              />
+              <button
+                type=""
+                class="w-full rounded-full bg-blue-500 py-3 text-white hover:bg-blue-600"
+              >
+                Register
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

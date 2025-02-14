@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-xs: 480px;
+}
+
+@layer base {
+  button {
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+}
+
+@layer components {
+  .input {
+    @apply mb-4 w-full rounded-md bg-gray-100 px-4 py-3 outline-none;
+  }
+}
