@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #36a004;
+  --breakpoint-xs: 26rem;
+}
+
+@layer base {
+  body {
+    background-color: #f9f9f9;
+  }
+  input {
+    background-color: #ffffff;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-3.5;
+  }
+  .disable-form {
+    @apply font-normal text-[#979797];
+  }
+}
